@@ -1,0 +1,13 @@
+<h1 align="center">CSV Data</h1>
+
+<div align="center">
+    <table>
+        {% for row in data_list %}
+            <tr>
+                <td>{{row[0]}}</td>
+                <td>{{row[1]}}</td>
+                <td>{{row[2]}}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</div>
